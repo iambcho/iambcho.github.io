@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- /*
+    When writing in HTML, the head tag is used to contain specific information about a web page, often referred to as metadata. 
+    This information includes things like the title of the document (which is mandatory), as well as scripts or links to scripts, and CSS files. 
+    The following sections contain information about the head tag, including elements that are stored within it, as well as related attributes 
+    and browser compatibility.
+    */ -->
+
+<head>
+
+    <!-- /*
+    In HTML, meta tags or meta elements are tags placed in the head section of your code that help define the contents of a web page. 
+    For example, a description meta tag is used by Internet search engines to display a description of your page in their search results.
+    */ -->
+
+    <meta charset="UTF-8">
+
+    <!-- //responsive website - within meta tag, viewport will determine the width of the template of the website
+    //within viewport, //width = device-width means that it will be determined by whatever device they are on -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- //SEO stuff - search engine optimization -->
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acme Web Design | Services</title>
+
+    <link rel = "stylesheet" href = "./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <!-- span will make it so that it is all on one line -->
+                <h1><span class="highlight">Acme</span> Web Design</h1> 
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Services</h1>
+                <ul id="services">
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin felis vulputate tellus varius, vel sodales ante egestas.</p>
+                        <p>Pricing: $1000-$3000</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin felis vulputate tellus varius, vel sodales ante egestas.</p>
+                        <p>Pricing: $250</p>
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin felis vulputate tellus varius, vel sodales ante egestas.</p>
+                        <p>Pricing: $25</p>
+                    </li>
+
+                </ul>
+            </article>
+           
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Get A Quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                    
+                </div>
+            </aside>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Acme Web Design, Copyright &copy; 2017</p>
+    </footer>
+
+</body>
+</html>
