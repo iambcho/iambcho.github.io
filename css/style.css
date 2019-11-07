@@ -1,15 +1,15 @@
 /* Global styles */
-a:link {
+a:link h1 {
     color: white;
     text-decoration:none;
 }
 
-a:visited {
+a:visited h1 {
     color: white;
     text-decoration:none;
 }
 
-a:hover {
+a:hover h1 {
     color: rgb(238, 213, 88);
     text-decoration:none;
 }
