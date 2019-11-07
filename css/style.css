@@ -1,4 +1,9 @@
 /* Global styles */
+a h1 {
+    color: white;
+    text-decoration:none;
+}
+
 a:link h1 {
     color: white;
     text-decoration:none;
