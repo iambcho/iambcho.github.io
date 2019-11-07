@@ -1,17 +1,17 @@
 /* Global styles */
 a:link {
     color: white;
-    text-decoration:none
+    text-decoration:none;
 }
 
 a:visited {
     color: white;
-    text-decoration:none
+    text-decoration:none;
 }
 
 a:hover {
     color: rgb(238, 213, 88);
-    text-decoration:none
+    text-decoration:none;
 }
 
 body {
