@@ -1,22 +1,22 @@
 /* Global styles */
 a h1 {
     color: white;
-    text-decoration:none;
+    text-decoration-line:none;
 }
 
 a:link h1 {
     color: white;
-    text-decoration:none;
+    text-decoration-line:none;
 }
 
 a:visited h1 {
     color: white;
-    text-decoration:none;
+    text-decoration-line:none;
 }
 
 a:hover h1 {
     color: rgb(238, 213, 88);
-    text-decoration:none;
+    text-decoration-line:none;
 }
 
 body {
